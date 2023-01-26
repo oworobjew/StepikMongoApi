@@ -1,0 +1,3 @@
+db.createCollection('products')
+
+db.products.insertMany([{item: "cucumber", price: 9, quantity: 100, about: "fresh"}, {item: "tomato", price: 20, quantity: 50, about: "red"}, {item: "lettuce", price: 35, quantity: 20, about: "green"}, {item: "apple", price: 5, quantity: 200, about: "polish"}, {item: "banana", price: 10, quantity: 40, about: "from yesterday"}, {item: "lemon", price: 13, quantity: 50, about: "for lemonade"}, {item: "orange", price: 12, quantity: 120, about: "fresh and round"}, {item: "grapes", price: 40, quantity: 15, about: "a bunch"}])
